@@ -10,4 +10,4 @@ npm install --save bim
 ```
 
 [npm-url]: https://npmjs.org/package/svgio
-[npm-image]: http://img.shields.io/npm/v/bim.svg
+[npm-image]: http://img.shields.io/npm/v/svgio.svg
