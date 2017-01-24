@@ -1,6 +1,6 @@
 {
   "name": "svgio",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A bunch of tools to convert SVG to Canvas/PNG, download them & so on",
   "main": "index.js",
   "types": "lib/svgio.d.ts",

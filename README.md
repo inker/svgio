@@ -1,4 +1,6 @@
-# svgio #
+# svgio
+
+[![NPM version][npm-image]][npm-url]
 
 A bunch of tools to convert SVG to Canvas/PNG, download them & so on
 
@@ -6,3 +8,5 @@ A bunch of tools to convert SVG to Canvas/PNG, download them & so on
 ```
 npm install --save bim
 ```
+
+[npm-url]: https://npmjs.org/package/svgio
