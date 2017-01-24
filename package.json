@@ -1,0 +1,30 @@
+{
+  "name": "svgio",
+  "version": "0.0.1",
+  "description": "A bunch of tools to convert SVG to Canvas/PNG, download them & so on",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "build-publish": "sh build/publish.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inker/svgio.git"
+  },
+  "keywords": [
+    "svg",
+    "canvas",
+    "png",
+    "download"
+  ],
+  "author": "Anton Veselyev",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  },
+  "bugs": {
+    "url": "https://github.com/inker/svgio/issues"
+  },
+  "homepage": "https://github.com/inker/svgio#readme"
+}
