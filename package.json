@@ -1,9 +1,9 @@
 {
   "name": "svgio",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "A bunch of tools to convert SVG to Canvas/PNG, download them & so on",
-  "main": "index.js",
-  "types": "lib/svgio.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rm -rf lib && tsc",
     "build-publish": "sh build/publish.sh",
@@ -22,10 +22,13 @@
   "author": "Anton Veselyev",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^2.1.5"
+    "typescript": "^2.5.3"
   },
   "bugs": {
     "url": "https://github.com/inker/svgio/issues"
   },
-  "homepage": "https://github.com/inker/svgio#readme"
+  "homepage": "https://github.com/inker/svgio#readme",
+  "dependencies": {
+    "download.js": "^1.0.0"
+  }
 }
